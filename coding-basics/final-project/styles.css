@@ -1,0 +1,239 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  #top {
+    background-image: url("https://drive.google.com/uc?export=view&id=1-RrKD2ZbBaItF0lamvZC4TgiaNVbKNXb");
+    background-size: cover;
+    background-repeat: none;
+    height: 1000px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    line-height: 0.9;
+    font-size: 85px;
+  }
+  #logo-pic {
+    height: 130px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  #cart {
+  /*   margin-left: 1px; */
+  }
+  
+  .badge:after {
+    content: attr(value);
+    font-size: 12px;
+    color: #fff;
+    background: red;
+    border-radius: 50%;
+    padding: 0 5px;
+    position: relative;
+    left: -8px;
+    top: -10px;
+    opacity: 0.9;
+  }
+  
+  #menu-btn {
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+  }
+  
+  #menu-btn:hover {
+    background-color: grey;
+    border-radius: 10px;
+  }
+  
+  nav:click {
+    background-color: clear;
+    width: 10px;
+    height: 10px;
+  }
+  
+  #menu:click {
+    width: 30px;
+    height: 2.5px;
+  }
+  
+  #menu {
+    cursor: pointer;
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 15px;
+  }
+  
+  .cattegory-section {
+    margin-top: 35px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  
+  #cat-menu {
+    position: absolute;
+    width: 140px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    right: -250px;
+    transition: 1s;
+    opacity: 0;
+  }
+  
+  #cart {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1500px;
+  }
+  
+  .nav-btn {
+    margin: 15px;
+    background-color: #284f82;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    transform: translate(0px, 0px);
+    box-shadow: 0 0 0 transparent;
+    transition: transform 0.5s, box-shadow 1s;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .category-card {
+    height: 250px;
+    width: 350px;
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    color: white;
+    font-size: 50px;
+  }
+  #climb-card {
+    background-image: url("https://drive.google.com/uc?export=view&id=1H2d9JnOY_hq503x6HyJvtOfNNeNAY8QY");
+    display: flex;
+    align-items: center;
+  }
+  
+  #backpack-card {
+    background-image: url("https://drive.google.com/uc?export=view&id=1aHiw4_47Syn0GdoJRpA7hllDCqCqBoNY");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  #biking-card {
+    background-image: url("https://drive.google.com/uc?export=view&id=1G1aHZgBvopPecL8kprgDUlsC9IornaIT");
+    background-size: cover;
+  }
+  
+  #snow-card {
+    background-image: url("https://drive.google.com/uc?export=view&id=1YQCtTR5s4aPKdfyUB1Da4UZ0A04BE4KM");
+    background-size: 350px 250px;
+  }
+  
+  #mid-picture {
+    background-image: url("https://drive.google.com/uc?export=view&id=18qP5Ruo23duTBvLKzVGeTTYQQYUemMjI");
+    background-repeat: no-repeat;
+    margin-top: 20px;
+    height: 800px;
+    display: flex;
+    background-position: center;
+  }
+  
+  #product-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-image: cover;
+  }
+  
+  #skis {
+    background-image: url("https://drive.google.com/uc?export=view&id=18yJfK-4_jPTs-q8zQN1jexiuDAaslEEe");
+    width: 200px;
+    height: 430px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+  }
+  
+  #harness {
+    background-image: url("https://drive.google.com/uc?export=view&id=1Jv8muOzhK3jBHBwJCILu-S5WHhDTBvtE");
+    width: 200px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+  }
+  
+  #stove {
+    background-image: url("https://drive.google.com/uc?export=view&id=1uX7Dju_VOmuxaGSGL22Y7slZ5FIUQDd1");
+    width: 200px;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+  }
+  
+  .cart-btn {
+    margin: 8px;
+  }
+  
+  .product-card {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 30px;
+    height: 350px;
+    width: 300px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    color: white;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  #featured-produucts {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    text-decoration-line: underline;
+  }
+  
