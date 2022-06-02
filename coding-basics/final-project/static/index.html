@@ -1,94 +1,163 @@
 <html>
 	<head>
-		<title>Skyler T Bair</title>	
+		<title>Skyler T Bair</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="styles.css">
+        <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
 	</head>
 	<body>
-        <div id="top">
-            <header>
-              <div class="logo">
-                <p>Second Hand<br>Adventure</p>
-              </div>
-              <div>
-                <i id="cart" class="fa badge fa-lg" value=8>&#xf07a;</i>
-              </div>
-              <nav>
-                <button id="menu-btn">
-                  <div id="menu"></div>
-                  <div id="menu"></div>
-                  <div id="menu"></div>
-                </button>
-                <div id="cat-menu">
-                  <button class="nav-btn">Climb</button>
-                  <button class="nav-btn">Backpack</button>
-                  <button class="nav-btn">Cycle</button>
-                  <button class="nav-btn">Snow</button>
-                </div>
-              </nav>
-            </header>
+    <div id="top">
+      <header>
+        <div id="logo">
+          <h4>Second Hand Adventure</h4>
+        </div>
+        <Section>
+          <p class="cart"><i class="fa badge fa-lg" value="0">&#xf07a</i><span class="cart-count"></span></p>
+        </Section>
+        <nav>
+          <button id="menu-btn">Menu</button>
+          <div class="menu">
+            <button class="nav-btn">Climb</button>
+            <button class="nav-btn">Backpack</button>
+            <button class="nav-btn">Cycle</button>
+            <button class="nav-btn">Snow</button>
           </div>
-          
-          <main>
-          
-            <section class="cattegory-section">
-              <div class="category-card" id="climb-card">
-                Climb
-              </div>
-          
-              <div class="category-card" id="backpack-card">
-                Backpack
-              </div>
-          
-              <div class="category-card" id="biking-card">
-                Biking
-              </div>
-          
-              <div class="category-card" id="snow-card">
-                Snow
-              </div>
-            </section>
-          
-            <div id="mid-picture">
-              <img />
+    
+        </nav>
+      </header>
+    </div>
+    
+    <main>
+    
+      <section class="cattegory-section">
+        <div class="category-card" id="climb-card">
+          Climb
+        </div>
+    
+        <div class="category-card" id="backpack-card">
+          Backpack
+        </div>
+    
+        <div class="category-card" id="biking-card">
+          Biking
+        </div>
+    
+        <div class="category-card" id="snow-card">
+          Snow
+        </div>
+      </section>
+    
+      <section id="mid-container">
+        <div id="mid-picture-1"> </div>
+        <div id="mid-picture-2"></div>
+        <div id="mid-picture"> </div>
+      </section>
+    
+      <div class="container-row">
+        <h3 id="featured-produucts">Featured products</h3>
+        <div class="slide-wrapper">
+          <div class="slider">
+            <div class="slider-links">
+              <a href="#slide-1"></a>
+              <a href="#slide-2"></a>
+              <a href="#slide-3"></a>
+              <a href="#slide-4"></a>
+              <a href="#slide-5"></a>
             </div>
-          
-            <h3 id="featured-produucts">Featured products</h3>
-          
-            <section id=:product-container>
-          
-              <div class="product-card">
-                <div id="skis"></div>
-                <h3>Black Diamond Route 105</h3>
-                <h4>$480.00</h4>
-                <button class="cart-btn">Add to cart</button>
+    
+            <div class="slides">
+              <div id="slide-1">
+                <div>
+                  <p class="ski-product-description">A pair of Black Diamond Skis that have been mounted once and use for one season mild wear and tear.</p>
+                </div>
+                <div class="product-card">
+                  <div id="skis"></div>
+                  <h3>Black Diamond Route 105</h3>
+                  <h2>$480.00</h2>
+                  <button class="ski-cart-btn">Add to cart</button>
+                </div>
               </div>
-          
-              <div class="product-card">
-                <div id="harness"></div>
-                <h3>Black Diamond Soultion Harness</h3>
-                <h4>$70.00</h4>
-                <button class="cart-btn">Add to cart</button>
+    
+              <div id="slide-2">
+                <div>
+                  <p class="harness-product-description">A Black Diamond Solution harness that is still new in packaging never used.</p>
+                </div>
+                <div class="product-card">
+                  <a id="harness"></a>
+                  <h3>Black Diamond Soultion Harness</h3>
+                  <h2>$70.00</h2>
+                  <button class="harness-cart-btn">Add to cart</button>
+                </div>
               </div>
-          
-              <div class="product-card">
-                <div id="stove"></div>
-                <h3>MSR Whisperlite backpacking stove</h3>
-                <h4>$50.00</h4>
-                <button class="cart-btn">Add to cart</button>
+    
+              <div id="slide-3">
+                <div>
+                  <p class="stove-product-description">MSR Wisperlite backpacking stove heavily used but fully functional and well taken care of.</p>
+                </div>
+                <div class="product-card">
+                  <a id="stove"></a>
+                  <h3>MSR Whisperlite backpacking stove</h3>
+                  <h2>$50.00</h2>
+                  <button class="stove-cart-btn">Add to cart</button>
+                </div>
               </div>
-          
-            </section>
-          
-          </main>
-          
-          <footer>
-            <section class="email-sign-up">
-              <p>Stay in touch for deals!</p>
-              <input type="text" placeholder="Enter Your Email" />
-              <button id="sign-up">Sign up</button>
-            </section>
-          </footer>
-
+    
+              <div id="slide-4">
+                <div>
+                  <p class="sleeping-bag-product-description">Western Mountaineering versalite 10F sleeping bag in good condition.</p>
+                </div>
+                <div class="product-card">
+                  <a id="sleeping-bag"></a>
+                  <h3>Western Mountaineering versalite 10F sleeping bag</h3>
+                  <h2>$350.00</h2>
+                  <button class="sleeping-bag-cart-btn">Add to cart</button>
+                </div>
+              </div>
+    
+              <div id="slide-5">
+                <div>
+                  <p class="tent-product-description">Big Agnes battle mountain 3 person tent used on a few expiditons in good condition.</p>
+                </div>
+                <div class="product-card">
+                  <a id="tent"></a>
+                  <h3>Big Agnes Battle Mountain</h3>
+                  <h2>$675.00</h2>
+                  <button class="tent-cart-btn">Add to cart</button>
+                </div>
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+    </main>
+    
+    <footer>
+      <h3 class="bottom-title">Second Hand Adventure</h3>
+      <section class="bottom-link-container">
+        <div>
+          <P class="bottom-links">Contact Us</P>
+          <p class="bottom-links">Careers</p>
+        </div>
+        <div>
+          <p class="bottom-links">Feedback</p>
+          <p class="bottom-links">About Us</p>
+        </div>
+      </section>
+      <div>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-youtube"></a>
+      </div>
+    
+      <section class="email-sign-up">
+        <p class="subscribe">Subscribe for more deals!</p>
+        <input class="input" type="text" placeholder="  Enter Your Email" />
+        <button id="sign-up">Sign up</button>
+      </section>
+    </footer>
+    
         <script src="app.js"></script>   
     </body>
 	

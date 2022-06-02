@@ -1,0 +1,1 @@
+explaination for the :: in CSS  https://stackoverflow.com/questions/16704049/what-does-the-double-colon-mean-in-css
